@@ -88,7 +88,7 @@ function init() {
 		} else {
 			this.left = e.clientX - this.offsetLeft;
 			this.top = e.clientY - this.offsetTop;
-		}
+		};
 		// This is so that transition function doesn't get called on every mouseMove - only once
 		if (this.has_been_called !== true) {
 			this.has_been_called = false;
@@ -128,7 +128,7 @@ function init() {
 		} else {
 			offset_x = e.clientX - this.left - 10;
 			offset_y = e.clientY - this.top - 10;
-		}
+		};
 
 		this.style.position = 'absolute';
 		this.style.top = offset_y + 'px';
