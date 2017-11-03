@@ -7,7 +7,9 @@ html {
 	background-size: 90px 90px;
 	width: 90px;
 	height: 90px;
+	margin-top: 15px;
 	margin-left: 12px;
+	margin-bottom: 10px;
 	cursor: pointer;
 	image-rendering: pixelated;
 }
@@ -16,8 +18,8 @@ html {
 	border: 2px solid black;
 	border-radius: 4px;
 	margin-left: 10px;
-	margin-top: -2px;
-	margin-bottom: -2px;
+	margin-top: 13px;
+	margin-bottom: 8px;
 }
 
 #plus:active {
@@ -25,14 +27,14 @@ html {
 	border: 2px solid black;
 	border-radius: 4px;
 	margin-left: 10px;
-	margin-top: -2px;
-	margin-bottom: -2px;
+	margin-top: 13px;
+	margin-bottom: 8px;
 }
 
 #text-container {
 	position: absolute;
-	left: 140px;
-	top: 18px;
+	left: 141px;
+	top: 22px;
 	width: 395px;
 }
 
