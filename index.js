@@ -73,10 +73,9 @@ function init() {
 	function mouseDown(e) {
 
 		e.preventDefault();
-		// Naming function and bind to be able to remove it later
+		// Naming functions and bind to be able to remove it later
 		const move = chatMove.bind(this);
 		this.move = move;
-
 		const up = mouseUp.bind(this);
 		this.up = up;
 
